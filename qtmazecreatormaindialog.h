@@ -65,10 +65,6 @@ private:
   void keyPressEvent(QKeyEvent* event);
   void drawMaze();
 
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
-
 private slots:
   void onTimer();
 

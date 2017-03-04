@@ -1,14 +1,10 @@
-INCLUDEPATH += \
-    ../../Tools/ToolMazeCreator
+INCLUDEPATH += $$PWD
 
 SOURCES += \
-    ../../Tools/ToolMazeCreator/mazecreatormenudialog.cpp
+    $$PWD/mazecreatormenudialog.cpp
 
 HEADERS += \
-    ../../Tools/ToolMazeCreator/mazecreatormenudialog.h
-
-OTHER_FILES += \
-    ../../Tools/ToolMazeCreator/Licence.txt
+    $$PWD/mazecreatormenudialog.h
 
 RESOURCES += \
-    ../../Tools/ToolMazeCreator/ToolMazeCreator.qrc
+    $$PWD/ToolMazeCreator.qrc

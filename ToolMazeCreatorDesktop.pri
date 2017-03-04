@@ -1,14 +1,14 @@
-include(../../Tools/ToolMazeCreator/ToolMazeCreatorConsole.pri)
+include(ToolMazeCreatorConsole.pri)
 
 SOURCES += \
-    ../../Tools/ToolMazeCreator/qtmazecreatormenudialog.cpp \
-    ../../Tools/ToolMazeCreator/qtmazecreatormaindialog.cpp
+    $$PWD/qtmazecreatormenudialog.cpp \
+    $$PWD/qtmazecreatormaindialog.cpp
 
 HEADERS += \
-    ../../Tools/ToolMazeCreator/qtmazecreatormenudialog.h \
-    ../../Tools/ToolMazeCreator/qtmazecreatormaindialog.h \
+    $$PWD/qtmazecreatormenudialog.h \
+    $$PWD/qtmazecreatormaindialog.h \
 
 FORMS    += \
-    ../../Tools/ToolMazeCreator/qtmazecreatormaindialog.ui \
-    ../../Tools/ToolMazeCreator/qtmazecreatormenudialog.ui
+    $$PWD/qtmazecreatormaindialog.ui \
+    $$PWD/qtmazecreatormenudialog.ui
 
