@@ -14,7 +14,7 @@ namespace ribi {
 
 class QtMazeCreatorMenuDialog : public QtHideAndShowDialog
 {
-  Q_OBJECT
+  Q_OBJECT //!OCLINT
 
 public:
   explicit QtMazeCreatorMenuDialog(QWidget *parent = 0);
