@@ -27,3 +27,8 @@
 *.out
 *.app
 *.pro.user
+debug/
+Makefile
+Makefile.*
+ToolMazeCreatorConsole
+MazeCreatorConsole
