@@ -32,3 +32,5 @@ Makefile
 Makefile.*
 ToolMazeCreatorConsole
 MazeCreatorConsole
+
+site/
