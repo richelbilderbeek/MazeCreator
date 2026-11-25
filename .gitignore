@@ -38,3 +38,4 @@ site/
 wordlist.dic
 
 coverage/
+build_*/
