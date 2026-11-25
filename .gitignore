@@ -34,3 +34,7 @@ ToolMazeCreatorConsole
 MazeCreatorConsole
 
 site/
+
+wordlist.dic
+
+coverage/
